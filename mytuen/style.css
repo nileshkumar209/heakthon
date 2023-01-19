@@ -1,0 +1,286 @@
+
+
+  @import url();
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppines' sans-serif;
+ }
+ .header{
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.listitem{
+    display: flex;
+    padding: 0.7rem 0 0.3rem 0.8rem ;
+
+}
+.listitem a:hover{
+    background-color: black;
+    color: white;
+    padding: 0.7rem 0.2rem 0.3rem 0.2rem ;
+
+}
+.listitem li{
+    padding: 0 0.75rem 0 0.75rem ;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.listitem li a{
+    color: white;
+    padding: 0.2rem;
+    text-decoration: none;
+
+}
+.home{
+    height: 100vh;
+    /* background-image: url(./1.jpeg); */
+    background-image: url("./sexy00.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+max-width: 100%;
+
+}
+.text-align{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30vh 0 10% 10%;
+}
+.S1{
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+.S2{
+    font-size: 1.9rem;
+    font-weight: 500px;
+}
+.S3{
+    font-size: 1.3rem;
+    letter-spacing: normal;
+
+}
+.music{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 5rem 10% 0 10%;
+background-color: #252529;
+
+}
+.contant-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+
+}
+.contant-div span{
+   color: white;
+
+
+}
+
+.M1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+
+}
+.M1 i{
+    padding: 0.2rem;
+
+}
+.M2{
+    font-size: 1.9rem;
+}
+.contant-div p{
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-weight: lighter;
+}
+.contant-div button{
+    padding: 2rem;
+    background-color: rgb(163,3,3);
+    font-weight: 100;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.contant-div div{
+    padding-bottom: 2rem;
+
+}
+.contant-div button:hover{
+    background-color: rgb(260, 160, 160);
+}
+.img-div div{
+    margin-top: 1rem;
+    margin-bottom: 2.5;
+}
+.img-div img{
+    width: 100%;
+}
+.movie-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 10% 3rem 10%;
+    gap: 1rem;
+
+
+}
+.movie-section span{
+   font-size: 1.8rem;
+
+}
+.movie-section p{
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+.movie-section button{
+    color: white;
+    background-color: rgb(60, 5, 110);
+    padding: 2rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+
+
+}
+.movie-section button :hover{
+    background-color: rgb(119, 2, 225);
+
+}
+.movi-img{
+    width: 100%;
+    height: 100%;
+}
+.world{
+background-image: url("./bak1.jpeg");
+width: 100%;
+background-repeat: no-repeat;
+height: 50%;
+background-size: cover;
+
+}
+.world-ent{
+    padding: 5rem 10% 3rem 10%;
+    color: white;
+    text-align: center;
+
+
+
+}
+.world-ent span{
+    font-size: 1.9rem;
+    margin-top: 2rem;
+    padding-bottom: 13px;
+
+}
+.world-ent p{
+    font-size: 1.1rem;
+    padding-top: 2px;
+    padding-bottom: 32px;
+
+}
+.gift-card{
+    background-color: #F4F4F4;
+    display: flex;
+    padding: 3rem 10% 3rem 10%;
+    flex-direction: row;
+
+}
+.gift-left img{
+    width: 100%;
+    height: 100%;
+
+}
+.gift-left{
+    padding: 10px;
+    flex: 50%;
+
+}
+.gift-right{
+    padding: 10%;
+    flex: 50%;
+
+}
+@media (max-width: 800px){
+    .gift-card{
+        flex-direction: column;
+
+    }
+}
+.gift-right p{
+font-size: 1rem;
+padding-top: 2rem;
+padding-bottom: 1.5;
+font-weight: lighter;
+
+}
+.gift-right span{
+    margin-top: 1.5rem;
+
+
+}
+.gift-right hr{
+    margin-top: 1rem;
+
+}
+.gift-right a{
+    text-decoration: none;
+    color: seagreen;
+    font-size: 2rem;
+
+}
+.gift-right a>i{
+    font-size: 1rem;
+    color: black;
+
+}
+    .footer-item{
+        background-color: 252529;
+    }
+.footer-menu{
+    padding: 3rem 10% 3rem 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+    background-color: #252529;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-menu div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+ }
+ .footer-menu div a{
+    color: white;
+    font-weight: lighter;
+ }
+ .footer-menu div hr{
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+ }
+ .copyright-area{
+    background-color: #333333;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    color: white;
+ }
